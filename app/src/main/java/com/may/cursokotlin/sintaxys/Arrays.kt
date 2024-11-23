@@ -1,4 +1,4 @@
-package com.may.cursokotlin
+package com.may.cursokotlin.sintaxys
 
 fun main(){
     val names = arrayOf("toby", "sara", "jose", "maria")

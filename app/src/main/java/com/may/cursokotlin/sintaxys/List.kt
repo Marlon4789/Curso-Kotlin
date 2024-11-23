@@ -1,8 +1,26 @@
-package com.may.cursokotlin.exercise1
+package com.may.cursokotlin.sintaxys
 
 fun main(){
 
-    immutableList()
+    mutable()
+    //immutableList()
+}
+
+fun mutable(){
+    val animals:MutableList<String> = mutableListOf("perro", "zorro", "aguila")
+
+    // añadir valores
+    animals.add(0, "tiburon")
+
+    // si es vacio
+    if (animals.isEmpty()){
+        println("No hay animales...")
+    }else if (animals.isNotEmpty()){
+        animals.forEach { println(it) }
+        println("Existen ${animals.size} animales: $animals")
+    }
+
+    println(animals)
 }
 
 fun immutableList(){

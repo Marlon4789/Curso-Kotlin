@@ -1,4 +1,4 @@
-package com.may.cursokotlin
+package com.may.cursokotlin.sintaxys
 
 fun main(){
     println("hello world")
