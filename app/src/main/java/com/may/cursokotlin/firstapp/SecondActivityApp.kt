@@ -38,7 +38,7 @@ class SecondActivityApp : AppCompatActivity() {
                 intent.putExtra("USER_NAME", name)
                 startActivity(intent)
             }else {
-                Toast.makeText(this, "Por favor ingresa un nombre", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Por favor ingrese su nombre", Toast.LENGTH_SHORT).show()
             }
 
 
