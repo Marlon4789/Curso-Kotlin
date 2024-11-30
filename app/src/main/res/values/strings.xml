@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Curso Kotlin</string>
+    <string name="pulsar_boton">Pulsar boton</string>
 </resources>
